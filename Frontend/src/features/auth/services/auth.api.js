@@ -78,7 +78,10 @@ export async function getMe() {
         return response.data
 
     } catch (err) {
-        console.log(err)
+        // 401 is expected when not logged in, only log unexpected errors
+        if (err.response?.status !== 401) {
+            console.error("getMe error:", err)
+        }
     }
 
 }
