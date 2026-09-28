@@ -1,0 +1,7 @@
+PROJECT: Interview-Ai
+
+
+
+Backend URL: https://interview-ai-backend-sa3t.onrender.com
+
+Frontend URL: https://interview-ai-amvr-bfmohxnvh-raghavpathak01s-projects.vercel.app/
